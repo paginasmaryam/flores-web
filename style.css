@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff8fb;
+    color: #333;
+}
+
+header {
+    background: #e8a6b8;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 35px;
+}
+
+.bienvenida {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.bienvenida h2 {
+    font-size: 35px;
+    color: #b94d70;
+}
+
+.boton {
+    display: inline-block;
+    background: #b94d70;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+section {
+    padding: 50px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+section > h2 {
+    text-align: center;
+    color: #b94d70;
+    margin-bottom: 35px;
+}
+
+.productos {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px #ddd;
+}
+
+.producto img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.producto h3 {
+    color: #b94d70;
+}
+
+.producto strong {
+    display: block;
+    font-size: 24px;
+    margin: 15px;
+}
+
+.whatsapp {
+    display: block;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.info {
+    text-align: center;
+    background: #ffe5ed;
+    max-width: none;
+}
+
+footer {
+    background: #b94d70;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+@media (max-width: 700px) {
+
+    .bienvenida h2 {
+        font-size: 28px;
+    }
+
+    .producto {
+        width: 100%;
+        max-width: 350px;
+    }
+
+}
